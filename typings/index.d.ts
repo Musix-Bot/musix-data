@@ -1,4 +1,4 @@
-declare module "musix-data" {
+/*declare module "musix-data" {
   interface colors {
     [index: string]: string;
   }
@@ -27,4 +27,4 @@ declare module "musix-data" {
   }
 
   export = data;
-}
+}*/
