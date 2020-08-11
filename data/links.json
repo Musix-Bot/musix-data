@@ -1,0 +1,6 @@
+{
+    "discordInvite": "https://discord.gg/rvHuJtB",
+    "invite": "https://discord.com/api/oauth2/authorize?client_id=607266889537945605&permissions=3427328&redirect_uri=https%3A%2F%2Fmusix-web.herokuapp.com%2Fthanks&scope=bot&response_type=code",
+    "invite2": "https://discord.com/api/oauth2/authorize?client_id=727669741618987139&permissions=3427328&redirect_uri=https%3A%2F%2Fmusix-web.herokuapp.com%2Fthanks&scope=bot&response_type=code",
+    "inviteBeta": "https://discord.com/api/oauth2/authorize?client_id=649252971690983446&permissions=3427328&redirect_uri=https%3A%2F%2Fmusix-web.herokuapp.com%2Fthanks&scope=bot&response_type=code"
+}
