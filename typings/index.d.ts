@@ -1,5 +1,3 @@
-import { colors, ids, redirects, invites } from "..";
-
 declare module "musix-data" {
   interface colors {
     [index: string]: string;
