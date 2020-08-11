@@ -1,8 +1,8 @@
-const ids = require("./data/ids.json");
-const colors = require("./data/colors.json");
-const invites = require("./data/invites.json");
-const urls = require("./data/links.json");
-const redirects = require("./data/redirs.json");
+import ids from "./data/ids.json";
+import colors from "./data/colors.json";
+import invites from "./data/invites.json";
+import urls from "./data/links.json";
+import redirects from "./data/redirs.json";
 export default {
     ids,
     colors,
