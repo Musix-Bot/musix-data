@@ -28,5 +28,5 @@ declare module "musix-data" {
     redirects: redirs;
   }
 
-  export = { data };
+  export = data;
 }
