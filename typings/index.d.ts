@@ -1,7 +1,7 @@
-import { colors, ids, ids, ids, colors, redirects, invites } from "..";
+import { colors, ids, redirects, invites } from "..";
 
 declare module "musix-data" {
-  /*interface colors {
+  interface colors {
     [index: string]: string;
   }
 
@@ -19,13 +19,14 @@ declare module "musix-data" {
 
   interface redirs {
     callback: string;
-  }*/
+  }
 
-  interface data {}
+  interface data {
+    colors: colors;
+    ids: ids;
+    invites: invites;
+    redirects: redirs;
+  }
 
-  exports.ids = ids;
-  exports.colors = colors;
-  exports.redirects = redirects;
-  exports.invites = invites;
-  export = data;
+  export = { data };
 }
