@@ -1,5 +1,6 @@
-exports.ids = require("./data/ids.json");
-exports.colors = require("./data/colors.json");
-exports.redirects = require("./data/redirs.json");
-exports.invites = require("./data/invites.json");
-module.exports = {};
+module.exports = {
+    ids = require("./data/ids.json"),
+    colors = require("./data/colors.json"),
+    invites = require("./data/invites.json"),
+    redirects = require("./data/redirs.json")
+};
