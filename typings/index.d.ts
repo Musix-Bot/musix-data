@@ -17,11 +17,13 @@ declare module "musix-data" {
       callback: string;
     };
   }
-  /*type data = {
+
+  type returnData = {
     colors: colors;
     ids: ids;
     invites: invites;
     redirects: redirs;
-  };*/
+  };
+  function data(): returnData;
   export = data;
 }
