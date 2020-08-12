@@ -19,10 +19,10 @@ declare module "musix-data" {
   }
 
   type returnData = {
-    colors: colors;
-    ids: ids;
-    invites: invites;
-    redirects: redirs;
+    colors: data.colors;
+    ids: data.ids;
+    invites: data.invites;
+    redirects: data.redirs;
   };
   function data(): returnData;
   export = data;
