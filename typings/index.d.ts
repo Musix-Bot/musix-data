@@ -15,11 +15,11 @@ declare module "musix-data" {
   interface redirs {
     callback: string;
   }
-  interface data {
+  type data = {
     colors: colors;
     ids: ids;
     invites: invites;
     redirects: redirs;
-  }
+  };
   export = data;
 }
