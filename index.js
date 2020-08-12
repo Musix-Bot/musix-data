@@ -1,9 +1,16 @@
+const colors = require("./data/colors.json");
+const ids = require("./data/ids.json");
+const invites = require("./data/invites.json");
+const urls = require("./data/links.json");
+const redirects = require("./data/redirs.json");
+
+
 module.exports = function () {
     return {
-        colors = require("./data/colors.json"),
-        ids = require("./data/ids.json"),
-        invites = require("./data/invites.json"),
-        urls = require("./data/links.json"),
-        redirects = require("./data/redirs.json")
+        colors: colors,
+        ids: ids,
+        invites: invites,
+        urls: urls,
+        redirects: redirects,
     }
 };
