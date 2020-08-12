@@ -12,14 +12,23 @@ declare module "musix-data" {
     releases: string;
     supportServer: string;
   };
+  type urls = {
+    discord_invite: string;
+    invite: string;
+    invite2: string;
+    inviteBeta: string;
+  };
   type redirs = {
-    callback: string;
+    releases: string;
+    discord: string;
+    panel: string;
   };
 
   type returnData = {
     colors: colors;
     ids: ids;
     invites: invites;
+    urls: urls;
     redirects: redirs;
   };
   function data(): returnData;

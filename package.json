@@ -4,15 +4,11 @@
   "description": "",
   "main": "index.js",
   "types": "./typings/index.d.ts",
-  "scripts": {
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Musix-Bot/musix-data.git"
   },
-  "author": "",
+  "author": "MatteZ02",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Musix-Bot/musix-data/issues"
