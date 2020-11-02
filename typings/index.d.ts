@@ -7,9 +7,9 @@ declare module "musix-data" {
     priority: boolean;
   };
   type ids = {
-    testServer: string;
-    primary_test_channel: string;
-    secondary_test_channel: string;
+    devAllowedServers: Array<string>;
+    devAllowedChannels: Array<string>;
+    devAllowedRoles: Array<string>;
     devs: Array<dev>;
   };
   type invites = {
