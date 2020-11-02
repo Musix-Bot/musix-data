@@ -1,39 +1,39 @@
 declare module "musix-data" {
-  type colors = {
-    [index: string]: string;
-  };
-  type dev = {
-    id: string;
-    priority: boolean;
-  };
-  type ids = {
-    devAllowedServers: Array<string>;
-    devAllowedChannels: Array<string>;
-    devAllowedRoles: Array<string>;
-    devs: Array<dev>;
-  };
+  namespace data {
+    interface colors {
+      [index: string]: string;
+    }
+    interface dev {
+      id: string;
+      priority: boolean;
+    }
+    interface ids {
+      devAllowedServers: Array<string>;
+      devAllowedChannels: Array<string>;
+      devAllowedRoles: Array<string>;
+      devs: Array<dev>;
+    }
 
-  type urls = {
-    discord_invite: string;
-    invite: string;
-    invite2: string;
-    inviteBeta: string;
-    releases: string;
-    supportServer: string;
-    discord: string;
-    panel: string;
-  };
+    interface urls {
+      discord_invite: string;
+      invite: string;
+      invite2: string;
+      inviteBeta: string;
+      releases: string;
+      supportServer: string;
+      discord: string;
+      panel: string;
+    }
 
-  type obj = object
+    function isEqual(obj: object, obj: object): boolean;
 
-  type musixData = {
-    colors: colors;
-    ids: ids;
-    urls: urls;
-    isEqual: function(obj, obj): boolean;
-  };
-
-  const data: musixData;
+    const data: {
+      colors: colors;
+      ids: ids;
+      urls: urls;
+      isEqual: isEqual;
+    };
+  }
 
   export = data;
 }
