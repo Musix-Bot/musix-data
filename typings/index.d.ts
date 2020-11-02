@@ -27,12 +27,9 @@ declare module "musix-data" {
 
     function isEqual(obj: object, obj: object): boolean;
 
-    const data: {
-      colors: colors;
-      ids: ids;
-      urls: urls;
-      isEqual: isEqual;
-    };
+    const colors: colors;
+    const ids: ids;
+    const urls: urls;
   }
 
   export = data;
