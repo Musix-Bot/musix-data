@@ -2,11 +2,15 @@ declare module "musix-data" {
   type colors = {
     [index: string]: string;
   };
+  type dev = {
+    id: string;
+    priority: boolean;
+  };
   type ids = {
     testServer: string;
     primary_test_channel: string;
     secondary_test_channel: string;
-    devId: string;
+    devs: Array<dev>;
   };
   type invites = {
     releases: string;
@@ -31,7 +35,6 @@ declare module "musix-data" {
     urls: urls;
     redirects: redirs;
   };
-  function data(): returnData;
 
-  export = data;
+  export = returnData;
 }

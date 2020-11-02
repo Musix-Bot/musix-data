@@ -1,6 +1,9 @@
 {
-    "testServer": "489111553321336832",
-    "primary_test_channel": "617633098296721409",
-    "secondary_test_channel": "570531724002328577",
-    "devId": "360363051792203779"
+  "devAllowedServers": ["768038082359590942", "718081535240306738"],
+  "devAllowedChannels": ["617633098296721409"],
+  "devAllowedRoles": [],
+  "devs": [
+    { "id": "360363051792203779", "priority": true },
+    { "id": "493174343484833802", "priority": false }
+  ]
 }
