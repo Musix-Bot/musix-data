@@ -24,14 +24,14 @@ declare module "musix-data" {
     panel: string;
   };
 
-  type returnData = {
+  type musixData = {
     colors: colors;
     ids: ids;
     urls: urls;
-    isEqual: function(): boolean;
+    isEqual: function(obj1, obj2): boolean;
   };
 
-  const data: returnData;
+  const data: musixData;
 
   export = data;
 }
