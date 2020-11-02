@@ -27,9 +27,7 @@ declare module "musix-data" {
   type returnData = {
     colors: colors;
     ids: ids;
-    invites: invites;
     urls: urls;
-    redirects: redirs;
   };
 
   const data: returnData;
