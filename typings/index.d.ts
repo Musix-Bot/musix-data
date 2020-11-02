@@ -28,6 +28,7 @@ declare module "musix-data" {
     colors: colors;
     ids: ids;
     urls: urls;
+    isEqual: function(): boolean;
   };
 
   const data: returnData;
