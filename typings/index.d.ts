@@ -36,5 +36,7 @@ declare module "musix-data" {
     redirects: redirs;
   };
 
-  export = returnData;
+  const data: returnData;
+
+  export = data;
 }
