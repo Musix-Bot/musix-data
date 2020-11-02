@@ -12,18 +12,14 @@ declare module "musix-data" {
     devAllowedRoles: Array<string>;
     devs: Array<dev>;
   };
-  type invites = {
-    releases: string;
-    supportServer: string;
-  };
+
   type urls = {
     discord_invite: string;
     invite: string;
     invite2: string;
     inviteBeta: string;
-  };
-  type redirs = {
     releases: string;
+    supportServer: string;
     discord: string;
     panel: string;
   };
