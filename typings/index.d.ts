@@ -24,11 +24,13 @@ declare module "musix-data" {
     panel: string;
   };
 
+  type obj = object
+
   type musixData = {
     colors: colors;
     ids: ids;
     urls: urls;
-    isEqual: function(obj1, obj2): boolean;
+    isEqual: function(obj, obj): boolean;
   };
 
   const data: musixData;
