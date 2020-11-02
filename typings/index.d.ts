@@ -25,7 +25,7 @@ declare module "musix-data" {
       panel: string;
     }
 
-    function isEqual(obj: object, obj: object): boolean;
+    function isEqual(obj1: object, obj2: object): boolean;
 
     const colors: colors;
     const ids: ids;
