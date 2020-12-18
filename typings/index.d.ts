@@ -1,23 +1,19 @@
 declare module "musix-data" {
   namespace data {
-    interface colors {
-      [index: string]: string;
-    }
-    interface dev {
-      id: string;
-      priority: boolean;
-    }
     interface ids {
-      devAllowedServers: Array<string>;
-      devAllowedChannels: Array<string>;
-      devAllowedRoles: Array<string>;
-      devs: Array<dev>;
+      devs: Array<{
+        id: string;
+        priority: boolean;
+      }>;
     }
 
     interface urls {
       discord_invite: string;
       invite: string;
       invite2: string;
+      webInviteBeta: string;
+      webInvite: string;
+      webInvite2: string;
       inviteBeta: string;
       releases: string;
       supportServer: string;
@@ -27,7 +23,7 @@ declare module "musix-data" {
 
     function isEqual(obj1: object, obj2: object): boolean;
 
-    const colors: colors;
+    const colors: { [index: string]: string };
     const ids: ids;
     const urls: urls;
   }
