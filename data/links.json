@@ -8,6 +8,6 @@
   "webInviteBeta": "https://discord.com/api/oauth2/authorize?client_id=649252971690983446&permissions=3427328&redirect_uri=https%3A%2F%2Fmusix-web.herokuapp.com%2Fthanks&scope=bot%20applications.commands",
   "releases": "https://musix-web.herokuapp.com/releases",
   "supportServer": "https://musix-web.herokuapp.com/discord",
-  "discord": "https://musix-web.herokuapp.com/discord",
+  "discord": "https://discord.com/invite/rvHuJtB",
   "panel": "https://musix-web.herokuapp.com/panel"
 }
