@@ -23,7 +23,11 @@ declare module "musix-data" {
 
     function isEqual(obj1: object, obj2: object): boolean;
 
-    const colors: { [index: string]: string };
+    const colors: {
+      HEX: {
+        [index: string]: string
+      }, RGB: { [index: string]: { red: number, green: number, blue: number } }
+    };
     const ids: ids;
     const urls: urls;
   }
