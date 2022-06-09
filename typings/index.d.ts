@@ -25,8 +25,11 @@ declare module "musix-data" {
 
     const colors: {
       HEX: {
-        [index: string]: string
-      }, RGB: { [index: string]: { red: number, green: number, blue: number } }
+        [index: string]: string;
+      };
+      RGB: {
+        [index: string]: number[];
+      };
     };
     const ids: ids;
     const urls: urls;
