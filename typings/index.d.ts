@@ -28,7 +28,7 @@ declare module "musix-data" {
         [index: string]: string;
       };
       RGB: {
-        [index: string]: number[];
+        [index: string]: [red: number, green: number, blue: number];
       };
     };
     const ids: ids;

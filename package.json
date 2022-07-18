@@ -1,6 +1,6 @@
 {
   "name": "musix-data",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Data for Musix bot.",
   "main": "index.js",
   "types": "./typings/index.d.ts",
